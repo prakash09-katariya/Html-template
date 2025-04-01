@@ -1,128 +1,228 @@
+@media (max-width:1400px) {
+    .container{
+        width:1140px;
+        margin:auto;
+      }
+    
+
 @media (max-width:1200px) {
-    .header-row .nav-menu ul li a {
-        padding: 18px 10px;
+    .container{
+        width:960px;
+        margin:auto;
+      }
+      .menu-section .menu-list-row {
+        flex-direction: column;
     }
+    .menu-section .menu-list-row .main-item {
+        padding: 0 200px;
+        width: 100%;
+    }
+    .footer-section .wrapper {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .footer-section .wrapper .col {
+        width: 100%;
+    }
+    .header-section {
+        padding: 10px 0;
+    }
+   
+    
+    
+}
+
 @media (max-width:992px) {
-    .header-row .nav-menu ul {
+    .container{
+        width:720px;
+        margin:auto;
+      }
+      .header-section .wrapper .nav-list {
         display: none;
     }
-}
-}
-
-
-@media (max-width:576px) {
-    .header-row .nav-menu ul{
-        display: none;
+    .header-section .wrapper .logo .menu{
+        display: flex;
     }
-    .hero-section .hero-heading {
-        font-size: 33px;
-        margin-bottom: 14px;
-        line-height: 49.2px;
-        text-align: center;
+    .about-section .wrapper {
+        flex-direction: column;
     }
-    .heder-logo a{
+    .about-section .food-image {
+        width: 100%;
+    }
+    .about-section .about-content {
+        width: 100%;
+    }
+    .gallery-section .wrapper .gallery-item {
         width: 50%;
     }
-    .header-row {
-        padding: 5px 6px;
-    }
-    .hero-section .cta-btn {
-        flex-direction: column;
-    }
-    .hero-section .cta-btn .active,  .hero-section .cta-btn a {
+    .menu-section .menu-list-row .main-item {
+        padding: 0 96px;
         width: 100%;
-        text-align: center;
     }
-    .hero-section .hero-status {
+    .menu-section .menu-list-row .main-item .menu-list .menu-list-heading h5 {
+        font-size: 1.2rem;
+    }
+    .menu-section .menu-list-row .main-item .menu-list p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .about-section .wrapper {
+        gap: 50px;
+    }
+    .footer-section .wrapper {
+        padding: 10px 0;
+    }
+    .header-section .wrapper .logo {
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .container{
+        width:540px;
+        margin:auto;
+      }
+     
+      .menu-section .menu-list-row .main-item {
+        padding: 0 0px;
+        width: 100%;
+    }
+    .footer-section .wrapper .col {
         flex-direction: column;
-        text-align: center;
-    }
-    .hero-image .shape-1 {
-        width: 144px;
-        height: 127px;
-    }
-    .hero-image .shape-2 {
-        width: 120px;
-        height: 120px;
-    }
-    .about-section .section-title h2 {
-        font-size: 30px;
-        margin-bottom: 0.5rem;
-    }
-    .about-section .section-title p {
-        margin: 10px auto 0;
-        font-size: 14px;
-    }
-    .about-content {
-        padding-left:0;
-    }
-    .about-content .personal-info {
-        padding: 1rem;
-    }
-    .portfolio-section .section-title ul {
         gap: 20px;
+        text-align: center;
+    }
+    
+    .footer-section .wrapper .col .header-first {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .footer-section .wrapper .header-second {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .footer-section .wrapper .col .header-second .instagram-main {
+        width: 50%;
+    }
+    .footer-section .wrapper .header-second .footer-title::before {
+        height: 2px;
+        left: 217px;
+        top: 35px;
+       
+    }.header-section .wrapper .logo {
+        justify-content: space-between;
+        width: 100%;
+    }
+    .header-section {
+        padding: 10px 0;
+    }
+    .footer-section .wrapper {
         flex-direction: column;
-        justify-content: center;
+        gap: 20px;
     }
-    .services-section .section-title h2 {
-        font-size: 30px;
-        margin-bottom: 0.5rem;
+}
+
+@media (max-width:576px) {
+    .container{
+        width:100%;
+        padding: 0 15px;
+      }
+      .sliden-section .content-banner .slider-heading {
+        font-size: 40px;
+        line-height: 60px;
     }
-    .portfolio-section .section-title h2{
-        font-size: 30px;
-        margin-bottom: 0.5rem;
+    .sliden-section .content-banner .slider-tex {
+        font-size: 19px;
     }
-    .testimonial-section .section-title h2{
-        font-size: 30px;
-        margin-bottom: 0.5rem;
+    .sliden-section {
+        height: 400px;
     }
-    .services-section .section-title p,.testimonial-section .section-title p,.portfolio-section .section-title p {
-        margin: 10px auto 0;
+    .about-section .food-image::before {
+        width: 85%;
+        height: 91%;
+        top: 49%;
+        left: 50%;
+    }
+      .menu-section .menu-list-row .main-item .menu-list .menu-list-heading h5 {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .menu-section .menu-list-row .main-item .menu-list .menu-list-heading p {
+        font-size: 15px; 
+    }
+    .about-section .about-content h3 ,.gallery-section .gallery-heading ,.menu-section .menu-heading,.reservation-section .reservation-heading,.contact-section .reservation-heading {
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+    .footer-section .wrapper .header-second .footer-title::before {
+        left: 96px;
+        top: 35px;
+    }
+    .footer-section .wrapper .col .header-first p {
+        font-size: 17px;
+    }
+    .footer-section .footer-bootom p {
         font-size: 14px;
-        line-height: 1.5;
+        line-height: 10px;
     }
-    .contact-section .text-content h2 {
-        font-size: 1.5rem;
-        line-height: 38.6px;
-    }
-    .contact-section .text-content p {
-        font-weight: 300;
-        font-size: 1rem;
-        margin-bottom: 1rem;
-        line-height: 25px;
-    }
-    .contact-section .text-content {
-        padding: 0 ;
-        margin-top:0;
-    }
-    .contact-section .contact-form {
-        padding:0;
-        background-color: transparent;
-    }
-    .work-experience .resume-wrapper .first-row {
+    .reservation-section .form-group {
         flex-direction: column;
     }
-    .work-experience .resume-wrapper .first-row .timeline-left {
+    .reservation-section .form-group .input-row {
         width: 100%;
     }
-    .work-experience .resume-wrapper .first-row .timeline-right {
+    .reservation-section .reserve-btn a {
+        font-size: 1rem;
+    }
+    .footer-section .wrapper .col .header-second .instagram-main {
         width: 100%;
-        padding-left: 0;
-        margin-top: 8px;
     }
-    .work-experience .resume-wrapper::before {
-        left: -5%;
-        top: 0;
+    .about-section .about-content p {
+        font-size: 16px;
+        line-height: 26px;
     }
-    .work-experience .resume-wrapper .first-row .time-dot {
-        left: calc(-5% + 1px);
+    .gallery-section ,.menu-section ,.menu-section ,.about-section {
+        padding: 30px 0;
     }
-    .ac-row{
-        padding: 0;
+    .contact-section .main-row {
+        flex-direction: column;
     }
-    .accordion-button {
-        font-size: 0.8rem;
+    .contact-section .input-row-tex {
+        width: 100%;
     }
-    
-    
+    .footer-section .wrapper .col {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .header-section .wrapper .logo {
+        justify-content: space-between;
+        width: 100%;
+    }
+    .header-section {
+        padding: 10px 0;
+    }
+    .footer-section .wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .menu-section .menu-list-row .main-item .menu-list p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .about-section .wrapper {
+        gap: 15px;
+    }
+    .about-section .food-image {
+        width: 100%;
+        padding: 0 0px;
+    }
+    .about-section .food-image::before {
+        width: 95%;
+    }
+    .menu-section .menu-list-row .menu-list {
+        margin-bottom: 25px;
+    }
 }
