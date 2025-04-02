@@ -145,11 +145,14 @@
         left: 50%;
     }
       .menu-section .menu-list-row .main-item .menu-list .menu-list-heading h5 {
-        font-size: 12px;
+        font-size: 10px;
         line-height: 17px;
     }
     .menu-section .menu-list-row .main-item .menu-list .menu-list-heading p {
-        font-size: 15px; 
+        font-size: 11px; 
+    }
+    .menu-section .menu-list-row .menu-list .menu-list-heading {
+        justify-content: space-between;
     }
     .about-section .about-content h3 ,.gallery-section .gallery-heading ,.menu-section .menu-heading,.reservation-section .reservation-heading,.contact-section .reservation-heading {
         margin-bottom: 13px;
@@ -159,6 +162,9 @@
     .footer-section .wrapper .header-second .footer-title::before {
         left: 0;
         top: 0;
+    }
+    .footer-section {
+        background-color: #e7f3f3;
     }
     .footer-section .wrapper .col .header-first p {
         font-size: 14px;
@@ -220,8 +226,12 @@
         font-size: 14px;
         line-height: 21px;
     }
-    .gallery-section ,.menu-section ,.menu-section ,.about-section ,.contact-section {
-        padding: 10px 0;
+    .sliden-section,.gallery-section ,.reservation-section  ,.menu-section ,.menu-section ,.about-section ,.contact-section {
+        margin-bottom: 30px;
+        padding: 0 0;
+    }
+    .reservation-section {
+        padding: 30px 0;
     }
     .contact-section .main-row {
         flex-direction: column;
@@ -250,6 +260,10 @@
 
     .footer-section .wrapper .col .header-first a {
         margin-bottom: 8px;
+        width: 50%;
+    }
+    .footer-section .wrapper .col .header-first a img{
+        width: 100%;
     }
 
     .footer-section .wrapper .col {
@@ -267,6 +281,13 @@
     .header-section .wrapper .logo {
         justify-content: space-between;
         width: 100%;
+    }
+    .header-section .wrapper .logo a{
+        width: 50%;
+    }
+    .header-section .wrapper .logo a img{
+        width: 100%;
+        object-fit: cover;
     }
     .header-section {
         padding: 10px 0;
@@ -314,6 +335,12 @@
 }
 .menu-section .menu-heading::before,.reservation-section .reservation-heading::before,.contact-section .reservation-heading::before ,.gallery-section .gallery-heading::before,.about-section .about-content h3::before  {
     width: 46px;
+}
+.reservation-section .form-group .input-row .form-input {
+    height: 35px;
+}
+.reservation-section .form-group .input-row .form-input::placeholder{
+    font-size: 14px;
 }
 
 
