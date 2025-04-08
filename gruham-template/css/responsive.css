@@ -1,0 +1,11 @@
+@media (max-width:576px) {
+    .detination-section .destination-img .img-other {
+        display: none;
+    }
+    .cureear-section .shre-idea {
+        display: none;
+    }
+    .nav {
+        display: none;
+    }
+}
