@@ -8,4 +8,42 @@
     .nav {
         display: none;
     }
+    .togle-btn{
+        display: flex;
+     }
+     .introduction-section .heding-content h3 {
+        padding: 25px 35px;
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .introduction-section .peragraph-content p {
+        font-size: 16px;
+        line-height: 26px;
+        padding-left: 15px;
+    }
+    .detination-section .destination-img img {
+        width: 100%;
+    }
+    .detination-section p, .company-section p ,.cureear-section p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .detination-section h2, .company-section h2 ,.detination-section h2, .company-section h2 {
+        font-size: 26px;
+        line-height: 22.2px;
+        margin-bottom: 15px;
+        padding-bottom: 18px;
+    }
+    .cureear-section .shre-idea {
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    .cureear-section .shre-idea h5 {
+        font-size: 16px;
+        line-height: 29px;
+    }
+    .cureear-section .shre-idea {
+        flex-direction: column;
+    }
 }
