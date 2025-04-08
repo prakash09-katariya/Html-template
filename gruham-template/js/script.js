@@ -12,6 +12,17 @@ function check(){
     document.getElementsByTagName('img')[9].src = 'https://dfy-properties.com/wp-content/uploads/2023/05/handshake_with_homes.jpg';
     document.getElementsByTagName('img')[10].src = 'https://avatars.mds.yandex.net/i?id=f6efbece180282da39dad7c757b28d4f9a4e7a5b-3322605-images-thumbs&n=13';
 }
+function prive(){
+    document.body.style.backgroundColor = "#000000";
+    document.getElementsByTagName('body').innerTex="hello-google";
+    document.getElementsByTagName("a")[0].style.color="#ffffff"
+    document.getElementsByTagName("a")[1].style.color="#ffffff"
+    document.getElementsByTagName("a")[2].style.color="#ffffff"
+    document.getElementsByTagName("a")[3].style.color="#ffffff"
+    document.getElementsByTagName("a")[4].style.color="#ffffff"
+    document.getElementsByTagName('img')[1].src = 'https://metropolitan.realestate/wp-content/uploads/2021/12/dubai-property-market-trends-forecast-for-2022-1.jpg';
+
+}
 
 function showAlert() {
     alert("thank you click press on ok");
