@@ -92,9 +92,13 @@
 /* header-nav-start */
 .header-nav{
     background-color: #f0542d;
+    position: sticky;
+    top: 0;
+   
 }
 .header-nav ul{
     justify-content: center;
+    
 }
 .header-nav ul li {
     padding: 0 15px;
@@ -387,11 +391,11 @@
     background-image: url(../imges/testimonial.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-   
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    overflow: hidden;
 }
 
 .testimonial-section  .claint{
@@ -474,6 +478,7 @@
     line-height: 27px;
     font-weight: 400;
     text-align: center;
+    margin-bottom: 50px;
 }
 .project-section  .gallery img{
     width: 100%;
@@ -483,5 +488,161 @@
     width: 100%;
     object-fit: cover;
 }
+
+
+.project-section  .gellery{
+    position: relative;
+    overflow: hidden;
+}
+.project-section  .gellery:hover .project-content{
+    visibility: visible;
+    transform: translatey(-20px);
+}
+.project-section .gellery .project-content{
+    padding: 20px;
+    max-width: 220px;
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+   transform: translatey(108px);
+   visibility: hidden;
+   transition: all 1s cubic-bezier(0.33, 0.6, 0.76, 0.66);
+}
+.project-section .gellery .project-content::after{
+    background: #f0542d;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+   
+}
+
+
+.project-section .gellery .project-content  .title{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height:20.8px;
+    margin-bottom: 0;
+    color: #ddd;
+}
+.project-section .gellery .project-content a{
+    font-size: 13px;
+    line-height: 16.9px;
+    text-decoration: underline;
+    color: #ddd;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
 /* project-section-end */
 
+/* brand-logo-start */
+
+.brand-logo .swiper{
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 60px 0;
+    
+}
+
+.brand-logo .swiper a{
+    width: 25%; 
+}
+.brand-logo .swiper a img{
+    width: 100%;
+}
+
+/* .brand-logo-end */
+
+.blog-section{
+    padding: 120px 0;
+}
+.blog-section h2{
+    text-align: center;
+    color: #f0542d;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: -5px;
+    font-family: Roboto, sans-serif;
+    line-height: 44.28px;
+}
+.blog-section p{
+    color: #1d1d25;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.blog-section .card {
+    margin-bottom: 40px;
+    border: 0;
+}
+.blog-section .card .img{
+    margin-bottom: 30px ;
+    position: relative;
+}
+.blog-section .card .img::before{
+    background-color:rgba(13, 12, 6, 0.80);
+    content: "";
+    display: inline-block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+    width: 100%;
+    z-index: 1;
+    visibility: hidden;
+}
+.blog-section .card .img:hover::before{
+    visibility: visible;
+}
+
+.blog-section .card p{
+    color: #b5b5b5;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    font-family: Roboto, sans-serif;
+    text-align: left;
+}
+.blog-section .card .title-blog a{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #1d1d25;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    line-height: 1.23;
+    margin-top: 0;
+}
+.blog-section .card .title-blog a:hover{
+    color: #f0542d;
+}
+.blog-section .card .blog-content{
+    color: #5a5a5a;
+    font-family: Poppins, sans-serif;
+    line-height: 27px;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+.blog-section .card  .link{
+    background: none;
+    border: none;
+    color: #393939;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    text-decoration: underline;
+    font-family: Roboto, sans-serif;
+}
