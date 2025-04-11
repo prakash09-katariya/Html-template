@@ -8,6 +8,8 @@
     <!-- ..................bootstrap link................... -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- ..................bootstrap link................... -->
 
     <!-- ..................own-css........................... -->
@@ -67,8 +69,8 @@
       <div class="container">
           <div class="row gy-4">
             <div class="col-lg-6">
-                <h2 class="hero-heading">Crafting Digital Experiences with Passion</h2>
-                <p class="lead">Transforming ideas into elegant solutions through creative design and innovative development</p>
+                <h2 class="hero-heading"  data-aos="fade-right">Crafting Digital Experiences with Passion</h2>
+                <p class="lead"data-aos="fade-down">Transforming ideas into elegant solutions through creative design and innovative development</p>
                 <div class="cta-btn">
                   <a class="active" href="#" >View My Work</a>
                   <a href="#">Let's Connect</a>
@@ -102,7 +104,9 @@
 
     <!-- about-section -->
     <section id="about" class="about-section">
-      <div class="container section-title">
+      <div class="container section-title" data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">
         <h2>About</h2>
         <div class="title-shape">
           <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
@@ -116,11 +120,11 @@
       <div class="container">
         <div class="row ">
           <div class="col-lg-6">
-            <div class="about-image">
+            <div class="about-image"data-aos="flip-left">
               <img src="image/img/profile-square-2.webp" alt="">
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6"data-aos="flip-left">
             <div class="about-content">
               <span class="sub-title">About Me</span>
               <h2>UI/UX Designer & Web Developer</h2>
@@ -190,7 +194,9 @@
 
     <!-- skill-section -->
 
-    <section id="skills" class="skills-section">
+    <section id="skills" class="skills-section"data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
         <div class="container">
           <div class="row g-4">
               <div class="col-lg-3 mt-4">
@@ -250,7 +256,7 @@
     <!-- resume-section -->
 
     <section id="resume" class="resume-section about-section">
-      <div class="container section-title">
+      <div class="container section-title" data-aos="zoom-in">
         <h2>Resume</h2>
         <div class="title-shape">
           <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
@@ -268,7 +274,7 @@
     <div class="container-fluid work-experience">
       <div class="container">
         <div class="row resume-row">
-          <div class="col-12">
+          <div class="col-12" >
             <h2>Work Experience</h2>
             <p class="lead">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet adipiscing sem neque sed ipsum.</p>
             <div class="resume-wrapper">
@@ -374,13 +380,13 @@
 
     <section id="portfolio" class="portfolio-section">
       <div class="container section-title">
-        <h2>Portfilio</h2>
+        <h2 data-aos="zoom-in">Portfilio</h2>
         <div class="title-shape">
           <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
             <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>
           </svg>
         </div>
-        <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur vel illum qui dolorem</p>
+        <p data-aos="zoom-in">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur vel illum qui dolorem</p>
         <ul >
           <li class=" "><a class="filter-active" href="">All Work</a></li>
           <li><a href="">Web Design</a></li>
@@ -481,7 +487,7 @@
 
     <!-- service-section -->
     <section id="service" class="services-section">
-      <div class="container section-title">
+      <div class="container section-title"data-aos="zoom-in">
         <h2>Services</h2>
         <div class="title-shape">
           <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
@@ -552,7 +558,8 @@
 
     <!-- testimonial-section -->
     <section id="testimonial" class="testimonial-section ">
-      <div class="container section-title">
+      <div class="container section-title" data-aos="fade-up"
+      data-aos-anchor-placement="bottom-center">
         <h2>Frequently Asked Questions</h2>
         <div class="title-shape">
           <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
@@ -647,7 +654,9 @@
 
     <!-- contact-section -->
 
-      <section id="contact" class="contact-section">
+      <section id="contact" class="contact-section"data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
         <div class="container">
           <div class="row gy-4">
             <div class="col-lg-6  pl-4 pr-4">
@@ -738,6 +747,9 @@
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="js/style.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>

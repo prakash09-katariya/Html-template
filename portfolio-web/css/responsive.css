@@ -63,6 +63,7 @@
         gap: 20px;
         flex-direction: column;
         justify-content: center;
+        padding-left: 0;
     }
     .services-section .section-title h2 {
         font-size: 30px;
@@ -111,11 +112,11 @@
         margin-top: 8px;
     }
     .work-experience .resume-wrapper::before {
-        left: -5%;
+        left: 0%;
         top: 0;
     }
     .work-experience .resume-wrapper .first-row .time-dot {
-        left: calc(-5% + 1px);
+        left: calc(0% + 1px);
     }
     .ac-row{
         padding: 0;
@@ -123,6 +124,36 @@
     .accordion-button {
         font-size: 0.8rem;
     }
+    .hero-section,.skills-section ,.about-section,.resume-row ,.services-section,.testimonial-section,.testimonial-section .section-title,.contact-section {
+        padding: 30px 0;
+    }
+    .about-row {
+        padding-bottom: 30px;
+    }
+    .portfolio-section {
+        padding-top: 30px;
+    }
+    .work-experience .resume-wrapper .first-row {
+        margin-bottom: 40px;
+    }
     
+    .work-experience .resume-wrapper .first-row ,.work-experience .resume-wrapper .first-row {
+        padding-left: 20px;
+    }
+    .about-content h2 ,.work-experience h2{
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+    .services-section .service-row h2 {
+        font-size: 2rem;
+        margin-bottom: 1.3rem;
+        line-height: 42px;
+    }
+    .footer-section {
+        padding: 30px 0;
+    }
+    .contact-section .contact-form .form-control {
+        padding: -0.25rem 1.25rem;
+    }
     
 }
