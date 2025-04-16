@@ -1,0 +1,347 @@
+@media (max-width:1400px) {
+    .container{
+        width:1140px;
+        margin:auto;
+      }
+    
+
+@media (max-width:1200px) {
+    .container{
+        width:960px;
+        margin:auto;
+      }
+      .menu-section .menu-list-row {
+        flex-direction: column;
+    }
+    .menu-section .menu-list-row .main-item {
+        padding: 0 200px;
+        width: 100%;
+    }
+    .footer-section .wrapper {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .footer-section .wrapper .col {
+        width: 100%;
+    }
+    .header-section {
+        padding: 10px 0;
+    }
+   
+    
+    
+}
+
+@media (max-width:992px) {
+    .container{
+        width:720px;
+        margin:auto;
+      }
+      .header-section .wrapper .nav-list {
+        display: none;
+    }
+    .header-section .wrapper .logo .menu{
+        display: flex;
+    }
+    .about-section .wrapper {
+        flex-direction: column;
+    }
+    .about-section .food-image {
+        width: 100%;
+    }
+    .about-section .about-content {
+        width: 100%;
+    }
+    .gallery-section .wrapper .gallery-item {
+        width: 50%;
+    }
+    .menu-section .menu-list-row .main-item {
+        padding: 0 96px;
+        width: 100%;
+    }
+    .menu-section .menu-list-row .main-item .menu-list .menu-list-heading h5 {
+        font-size: 1.2rem;
+    }
+    .menu-section .menu-list-row .main-item .menu-list p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .about-section .wrapper {
+        gap: 50px;
+    }
+    .footer-section .wrapper {
+        padding: 10px 0;
+    }
+    .header-section .wrapper .logo {
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .container{
+        width:540px;
+        margin:auto;
+      }
+     
+      .menu-section .menu-list-row .main-item {
+        padding: 0 0px;
+        width: 100%;
+    }
+    .footer-section .wrapper .col {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    
+    .footer-section .wrapper .col .header-first {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .footer-section .wrapper .header-second {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .footer-section .wrapper .col .header-second .instagram-main {
+        width: 50%;
+    }
+    .footer-section .wrapper .header-second .footer-title::before {
+        height: 2px;
+        left: 217px;
+        top: 35px;
+       
+    }.header-section .wrapper .logo {
+        justify-content: space-between;
+        width: 100%;
+    }
+    .header-section {
+        padding: 10px 0;
+    }
+    .footer-section .wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width:576px) {
+    .container{
+        width:100%;
+        padding: 0 15px;
+      }
+      .sliden-section .content-banner .slider-heading {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .sliden-section .content-banner .slider-tex {
+        font-size: 19px;
+    }
+    .sliden-section {
+        height: 400px;
+    }
+    .about-section .food-image::before {
+        width: 85%;
+        height: 91%;
+        top: 49%;
+        left: 50%;
+    }
+      .menu-section .menu-list-row .main-item .menu-list .menu-list-heading h5 {
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .menu-section .menu-list-row .main-item .menu-list .menu-list-heading p {
+        font-size: 11px; 
+    }
+    .menu-section .menu-list-row .menu-list .menu-list-heading {
+        justify-content: space-between;
+    }
+    .about-section .about-content h3 ,.gallery-section .gallery-heading ,.menu-section .menu-heading,.reservation-section .reservation-heading,.contact-section .reservation-heading {
+        margin-bottom: 13px;
+        padding-bottom: 5px;
+        font-size: 20px;
+    }
+    .footer-section .wrapper .header-second .footer-title::before {
+        left: 0;
+        top: 0;
+    }
+    .footer-section {
+        background-color: #e7f3f3;
+    }
+    .footer-section .wrapper .col .header-first p {
+        font-size: 14px;
+        text-align: left;
+    }
+    .footer-section .footer-bootom p {
+        font-size: 14px;
+        line-height: 10px;
+    }
+    .reservation-section .form-group {
+        flex-direction: column;
+    }
+    .reservation-section .form-group .input-row ,.reservation-section .input-row-1 {
+        width: 100%;
+        padding: 0 0;
+        margin-bottom: 0.5rem;
+    }
+    .reservation-section .reserve-btn a {
+        font-size: 1rem;
+    }
+    .footer-section .wrapper .col .header-second .instagram-main {
+        width: 100%;
+    }
+
+    .footer-section .wrapper .col .header-first .icone-list .icone .link {
+        margin-right: 5px;
+        width: 25px;
+        height: 25px;
+        font-size: 13px;
+    }
+    .footer-section .wrapper .header-second ul li a i {
+        width: 20px;
+        height: 20px;
+        font-size: 15px;
+    }
+
+    .footer-section .wrapper .header-second .footer-title {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        line-height: 10.8px;
+    }
+    .contact-section p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 1rem;
+    }
+    .about-section .about-content {
+        width: 100%;
+        padding: 0 0px;
+    }
+    .contact-section .input-row-tex .input {
+        width: 100%;
+        height: 26px;
+    }
+    .contact-section .input-row-tex .input::placeholder,.contact-section .tex-area #tex::placeholder {
+        font-size: 14px;
+    }
+    .about-section .about-content p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .sliden-section,.gallery-section ,.reservation-section  ,.menu-section ,.menu-section ,.about-section ,.contact-section {
+        margin-bottom: 30px;
+        padding: 0 0;
+    }
+    .reservation-section {
+        padding: 30px 0;
+    }
+    .contact-section .main-row {
+        flex-direction: column;
+    }
+    .contact-section .input-row-tex {
+        width: 100%;
+        padding: 0;
+    }
+    .contact-section .tex-area {
+        margin-bottom: 1rem;
+        width: 100%;
+        padding: 0;
+        height: 100px;
+    }
+
+    .contact-section .contact-btn a, .reservation-section .reserve-btn a  {
+        padding: .5rem 1rem;
+        line-height: 1.4;
+        font-size: 1rem;
+    }
+
+    .footer-section .wrapper .col .header-first , .footer-section .wrapper .header-second{
+        width: 100%;
+        padding: 0 0px;
+    }
+
+    .footer-section .wrapper .col .header-first a {
+        margin-bottom: 8px;
+        width: 50%;
+    }
+    .footer-section .wrapper .col .header-first a img{
+        width: 100%;
+    }
+
+    .footer-section .wrapper .col {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-section .wrapper .header-second ul li a {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .header-section .wrapper .logo {
+        justify-content: space-between;
+        width: 100%;
+    }
+    .header-section .wrapper .logo a{
+        width: 50%;
+    }
+    .header-section .wrapper .logo a img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .header-section {
+        padding: 10px 0;
+    }
+    .footer-section .wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .menu-section .menu-list-row .main-item .menu-list p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .about-section .wrapper {
+        gap: 15px;
+    }
+    .about-section .food-image {
+        width: 100%;
+        padding: 0 0px;
+    }
+    .about-section .food-image::before {
+        width: 95%;
+    }
+    .menu-section .menu-list-row .menu-list {
+        margin-bottom: 25px;
+    }
+}
+.footer-section .wrapper .header-second .footer-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    line-height: 28.8px;
+    padding-left: 30px;
+    position: relative;
+    color: #666666;
+    text-align: left;
+}
+
+.menu-section .wrapper ul li a {
+    margin-right: 0px;
+    font-size: 14px;
+    padding: .5rem 1rem;
+}
+.menu-section .wrapper ul {
+    margin-bottom: 25px;
+    gap: 10px;
+}
+.menu-section .menu-heading::before,.reservation-section .reservation-heading::before,.contact-section .reservation-heading::before ,.gallery-section .gallery-heading::before,.about-section .about-content h3::before  {
+    width: 46px;
+}
+.reservation-section .form-group .input-row .form-input {
+    height: 35px;
+}
+.reservation-section .form-group .input-row .form-input::placeholder{
+    font-size: 14px;
+}
+
+
+}
