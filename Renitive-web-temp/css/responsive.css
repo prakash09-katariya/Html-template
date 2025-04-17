@@ -50,9 +50,21 @@
 }
 
 @media (max-width:768px) {
-  
+    .banner-section .banner-content h1 {
+        font-size: 80px;
+        line-height: 96px;
+    }
+    .banner-section .banner-content h2 {
+        font-size: 26.393px;
+        line-height: 31.67px;
+    }
+    .banner-section .wrapper {
+        flex-direction: column;
+    }
 }
 
 @media (max-width:576px) {
-   
+    .service-section .card {
+        width: 100%;
+    }
 }
