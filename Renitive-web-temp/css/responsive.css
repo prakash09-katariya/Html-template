@@ -16,6 +16,10 @@
     .wrapper-row {
         align-items: center;
     }
+    .scal{
+        transform: scale(1);
+       
+      }
     
     
 }
@@ -47,6 +51,10 @@
     .service-section .card .content:hover {
         margin-top: -70px;
     }
+    .scal{
+        transform: scale(1);
+       
+      }
 }
 
 @media (max-width:768px) {
@@ -61,10 +69,37 @@
     .banner-section .wrapper {
         flex-direction: column;
     }
+    .scal{
+        transform: scale(1);
+       
+      }
 }
 
 @media (max-width:576px) {
     .service-section .card {
         width: 100%;
     }
+    .container {
+        width: 100%;
+        padding: 0 12px;
+    }
+    .banner-section .banner-content h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .banner-section .banner-content h2 {
+        font-size: 24.08px;
+        line-height: 28.89px;
+    }
+    .designing-section .heading-content-row .heading-row ,.template-section .content-template h2,.skill-section-start h2  {
+        line-height: 28.89px;
+        font-size: 24.8px;
+    }
+    .presentation-section .pre-heaading ,.selection-section .selected-heading{
+        font-size: 24.08px;
+        line-height: 28.8px;
+    }
+    .scal{
+        transform: scale(1);
+      }
 }

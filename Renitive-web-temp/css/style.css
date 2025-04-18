@@ -820,4 +820,166 @@ header .wrapper .solial-icon ul li a{
   padding-top: 8px ;
 }
 
+.selection-section .items-left img{
+  width: 100%;
+}
 
+/* selection-section-end */
+
+/* count-slider-start */
+.count-slider .card-count{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #2D5E7E;
+  min-height: 200px;
+}
+.count-slider .card-count .icone{
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  color: white;
+  line-height: 108px;
+
+}
+.count-slider .card-count h5{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+  color: white;
+  margin-top: 20px;
+}
+.count-slider .card-count h5 span{
+  font-weight: 300;
+}
+
+
+
+/* count-slider-end */
+
+.pricing-section{
+  padding: 100px 0;
+}
+.first{
+  border-top: 10px solid #707070;
+}
+
+.second{
+  border-top: 10px solid #A4C969;
+}
+.third{
+  border-top: 10px solid #48B7B0;
+}
+
+.forth{
+  border-top:10px solid #E97C67;
+}
+.pricing-section .pricing-heading{
+  font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    margin-bottom: 8px;
+    color: #000000;
+    text-align: center;
+    margin-top: 0;
+}
+.pricing-section .pricing-heading span{
+  font-weight: 300;
+  color: #e97c67;
+}
+.pricing-section p{
+  margin-bottom: 0;
+    font-weight: 300;
+    line-height: 28.8px;
+    font-size: 16px;
+    color: #707070;
+    text-align: center;
+    max-width: 546px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.pricing-section .card-item{
+  margin-bottom: 30px;
+}
+.pricing-section .card-item .first-heading{
+  padding: 20px 15px 10px;
+  min-height: 160px;
+  border: 1px solid #eaeaea;
+}
+.pricing-section .card-item h5{
+  margin: 0;
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 300;
+  color: #000000;
+  margin-bottom: 8px;
+  
+}
+.pricing-section .card-item h5 span{
+  font-weight: 700;
+}
+.pricing-section .card-item ul li{
+  border: 1px solid #eaeaea;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  margin: 0;
+  min-height: 70px;
+}
+.pricing-section .card-item ul li:first-child,.pricing-section .card-item ul li:nth-child(3),.pricing-section .card-item ul li:nth-child(5){
+  background-color: #F8F8F8;
+}
+.pricing-section .card-item ul li h6{
+  color: #000000;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.2px;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+.pricing-section .first-heading h4{
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+  color: #a4c969;
+  margin: 0;
+}
+.pricing-section .first-heading h6{
+  font-size: 60px;
+  font-weight: 200;
+  line-height: 60px;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+  margin-top: 15px;
+}
+.pricing-section .first-heading h6 span{
+  font-size: 14px;
+
+}
+.pricing-section .price-table .btn-green{
+  background-color: #8CAB59;
+
+}
+.pricing-section .price-table .btn-green a{
+  font-weight: 700;
+  color: white;
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  display: block;
+}
+.pricing-section .price-table .btn-green:hover{
+  background-color: #779645;;
+}
+.scal{
+  transform: scale(1.05);
+  z-index: 999;
+  background-color: white;
+}
