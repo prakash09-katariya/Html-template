@@ -329,6 +329,23 @@ header .wrapper .cta-btn a{
 /* our-process-section-start */
 .our-process-section{
     padding-bottom: 130px;
+    position: relative;
+}
+.our-process-section .back-image {
+    display: flex;
+    justify-content: space-between;
+}
+.our-process-section .back-image .left{
+    position: absolute;
+    transform: rotate(360deg);
+    top: 10%;
+    right: 0;
+}
+.our-process-section .back-image .right{
+    position: absolute;
+    transform: rotate(360deg);
+    top: 10%;
+    left: 0;
 }
 .our-process-section .content-process{
     margin-bottom: 40px;
@@ -608,12 +625,32 @@ header .wrapper .cta-btn a{
 /* service-section-end */
 
 /* testimonial-slider-start */
+.testimonial-slider{
+    position: relative;
+}
 .testimonial-slider .slider{
     z-index: 0;
     border-radius: 16px;
     background-image: linear-gradient(270deg, #4e2ad8, #c2334c 46%, #e7b758);
     padding: 1px;
     position: relative;
+}
+
+.testimonial-slider  .back-image {
+    display: flex;
+    justify-content: space-between;
+}
+.testimonial-slider  .back-image .left{
+    position: absolute;
+    transform: rotate(360deg);
+    top: 0;
+    right: 0;
+}
+.testimonial-slider  .back-image .right{
+    position: absolute;
+    transform: rotate(360deg);
+    top: 10%;
+    left: 0;
 }
 
 .testimonial-slider .slider .slider-top{
