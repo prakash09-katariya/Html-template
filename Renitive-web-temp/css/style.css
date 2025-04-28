@@ -1170,5 +1170,11 @@ header .wrapper .solial-icon ul li a{
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1ps solid grey;
+  border: 1px solid grey;
+  background-color: #F8F8F8;
+  opacity: 1;
+  filter: grayscale(100%);
+}
+.brand-row .brand-logo:hover{
+  filter: grayscale(0%);
 }
