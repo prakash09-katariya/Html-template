@@ -1761,3 +1761,35 @@ team-section .wrapper .item .team-image img{
   border-bottom: 4px solid #48b7b0;
 }
 /* news-section-end */
+
+/* have-question-start */
+.have-question {
+  padding: 48px 0;
+  background-color: #E97C67;
+  position: relative;
+}
+.have-question  h1{
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 38.4px;
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+.have-question  h1 span{
+  font-weight: 700;
+}
+
+.have-question .svg-icone i{
+  width: 100px;
+  height: 100px;
+  background-color: #E97C67;
+  border-radius: 50px;
+  font-size: 25px;
+  border: 1px solid white;
+  display: block;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+}
+.have-question .svg-icone  
