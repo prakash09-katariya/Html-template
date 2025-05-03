@@ -1780,16 +1780,86 @@ team-section .wrapper .item .team-image img{
   font-weight: 700;
 }
 
-.have-question .svg-icone i{
+.have-question .svg-icone {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.have-question .svg-icone i {
   width: 100px;
   height: 100px;
   background-color: #E97C67;
   border-radius: 50px;
   font-size: 25px;
-  border: 1px solid white;
-  display: block;
-  position: absolute;
-  top: -50px;
-  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
-.have-question .svg-icone  
+
+/* have-question-end */
+
+/* .form-section-start */
+.form-section{
+  padding: 100px 0;
+}
+.form-section h2{
+  font-weight: 300 !important;
+    line-height: 38.4px;
+    margin-bottom: .5rem;
+    font-size: 32px;
+    color: #000000;
+    margin-top: 0;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+}
+.form-section h2 strong{
+  font-weight: 700;
+}
+.form-section h2 span{
+  color: #e97c67;
+}
+
+.form-section p{
+  font-weight: 300 !important;
+    line-height: 28.8px;
+    margin-bottom: .5rem;
+    font-size: 16px;
+    color: #707070;
+    margin-bottom: 60px !important;
+    z-index: 1;
+    position: relative;
+    max-width: 50%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.form-section  .left-form h5{
+  font-size: 16px;
+  font-weight:600 ;
+  line-height: 19.2px;
+  color: black;
+  margin: 0 ;
+  margin-bottom: 4px;
+}
+.form-section  .left-form .number{
+  font-size: 16px;
+  font-weight:400 ;
+  line-height: 28.8px;
+  color: #707070;
+  margin: 0;
+}
+.form-section .left-form{
+  display: flex;
+  margin-bottom: 48px;
+}
+.form-section .left-form span i{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  }
